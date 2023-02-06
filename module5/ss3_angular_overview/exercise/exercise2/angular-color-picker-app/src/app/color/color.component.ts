@@ -8,7 +8,7 @@ import {Color} from "../model/color";
 })
 export class ColorComponent implements OnInit {
 
-  colors:Color ={color:"#29e624"}
+  color:Color ={color:"#29e624"}
 
   constructor() { }
 
@@ -16,6 +16,6 @@ export class ColorComponent implements OnInit {
   }
 
   changeColor(target: any) {
-    this.colors.color= target.value
+    this.color.color= target.value
   }
 }

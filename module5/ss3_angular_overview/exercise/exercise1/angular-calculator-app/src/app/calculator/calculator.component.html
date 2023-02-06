@@ -1,14 +1,14 @@
 <h1>Calculator works!</h1>
-<p>Number 1</p>
-<input type="number" #number1 >
+<p>Number First</p>
+<input type="number" #numberFirst >
 <select #operator >
   <option value="+">+</option>
   <option value="-">-</option>
   <option value="*">*</option>
   <option value="/">/</option>
 </select>
-<p>Number 2</p>
-<input type="number" #number2>
-<button type="button" (click)="operatorCal(number1.value,number2.value,operator.value)">Calculate</button>
+<p>Number Second</p>
+<input type="number" #numberSecond>
+<button type="button" (click)="operatorCal(numberFirst.value,numberSecond.value,operator.value)">Calculate</button>
 <p>{{result}}</p>
 

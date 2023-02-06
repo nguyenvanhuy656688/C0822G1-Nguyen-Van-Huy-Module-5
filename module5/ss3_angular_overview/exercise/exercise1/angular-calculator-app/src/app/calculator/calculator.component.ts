@@ -12,20 +12,19 @@ export class CalculatorComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  operatorCal(number1: any, number2: any, operator: string) {
+  operatorCal(numberFirst: any, numberSecond: any, operator: string) {
     switch (operator) {
       case '+':
-        this.result = 'Kết quả là ' + (parseFloat(number1) + parseFloat(number2));
+        this.result = 'Kết quả là ' + (parseFloat(numberFirst) + parseFloat(numberSecond));
         break;
       case '-':
-        this.result = 'Kết quả là ' + (parseFloat(number1) + parseFloat(number2));
+        this.result = 'Kết quả là ' + (parseFloat(numberFirst) + parseFloat(numberSecond));
         break;
       case '*':
-        this.result = 'Kết quả là ' + (parseFloat(number1) + parseFloat(number2));
+        this.result = 'Kết quả là ' + (parseFloat(numberFirst) + parseFloat(numberSecond));
         break;
       case '/':
-        this.result = 'Kết quả là ' + (parseFloat(number1.value) + parseFloat(number2.value));
-        break;
+        this.result = 'Kết quả là ' + (parseFloat(numberFirst) + parseFloat(numberSecond));
     }
   }
 }
