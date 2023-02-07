@@ -41,7 +41,7 @@
 </nav>
 <nav class="navbar navbar-expand-lg bg-light">
   <div class=" container-fluid" style="background-color: #ffcd39;align-items: center">
-    <a class="navbar-brand" href="@{/home}">Giới thiệu</a>
+    <a class="navbar-brand" [routerLink]="'/home'">Giới thiệu</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -49,20 +49,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav" style="align-items: center">
         <li class="nav-item">
-          <div class="btn btn-group">
-            <button type="button" class="btn btn-light nav-link">Quản lý</button>
-            <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split"
-                    data-bs-toggle="dropdown" aria-expanded="false">
-              <span class="visually-hidden">Toggle Dropdown</span>
-            </button>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="@{/employee}">Nhân viên</a></li>
-              <li><a class="dropdown-item" href="@{/customer}">khách hàng</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-            </ul>
-          </div>
+          <a class="nav-link" [routerLink]="'/customer'" style="font-weight: 700">khách hàng</a>
         </li>
         <li class="nav-item">
           <a class="nav-link"
@@ -70,10 +57,10 @@
              style="font-weight: 700">Dịch vụ</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="@{/facility}" style="font-weight: 700">Hạ tầng</a>
+          <a class="nav-link" [routerLink]="'/facility'" style="font-weight: 700">Hạ tầng</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="@{/contract}" style="font-weight: 700">Hợp đồng</a>
+          <a class="nav-link" [routerLink]="'/contract'" style="font-weight: 700">Hợp đồng</a>
         </li>
       </ul>
     </div>
