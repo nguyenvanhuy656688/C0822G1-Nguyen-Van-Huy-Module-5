@@ -16,10 +16,10 @@ export class CountdownTimerComponent implements OnInit, OnChanges, OnDestroy {
 
   ngOnChanges(changes: SimpleChanges) {
     if ('seconds' in changes) {
-      let v = changes.seconds.currentValue;
-      v = typeof v === 'undefined' ? 11 : v;
-      const vFixed = Number(v);
-      this.seconds = Number.isNaN(vFixed) ? 11 : vFixed;
+      let change = changes.seconds.currentValue;
+      change = typeof change === 'undefined' ? 20 : change;
+      const vFixed = Number(change);
+      this.seconds = Number.isNaN(vFixed) ? 20 : vFixed;
     }
   }
 
@@ -44,13 +44,13 @@ export class CountdownTimerComponent implements OnInit, OnChanges, OnDestroy {
 
   stop() {
     this.clearTimer();
-    this.message = `Holding at T-${this.remainingTime} seconds`;
+    this.message = `Holding at Time-${this.remainingTime} seconds`;
   }
 
   reset() {
     this.clearTimer();
     this.remainingTime = this.seconds;
-    this.message = `Click start button to start the Countdown`;
+    this.message = `Nhấn start để bắt đầu Countdown`;
   }
 
   private countDown() {
@@ -58,12 +58,12 @@ export class CountdownTimerComponent implements OnInit, OnChanges, OnDestroy {
     this.intervalId = window.setInterval(() => {
       this.remainingTime -= 1;
       if (this.remainingTime === 0) {
-        this.message = 'Blast off!';
+        this.message = 'Blast tắt!';
         this.clearTimer();
         this.finish.emit(true);
       } else {
-        this.message = `T-${this.remainingTime} seconds and counting`;
+        this.message = `Time-${this.remainingTime} seconds and counting`;
       }
-    }, 1000);
+    }, 500);
   }
 }
