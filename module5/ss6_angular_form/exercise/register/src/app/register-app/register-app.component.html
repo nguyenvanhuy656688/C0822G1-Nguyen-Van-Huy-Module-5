@@ -1,32 +1,32 @@
 <h1>Form đăng kí</h1>
 <form [formGroup]="reactiveForm" (ngSubmit)="createFormRegister()">
   <p>Email</p>
-  <label>
+  <label class="form-label">
     <input formControlName="email" name="email">
   </label>
   <p style="color: red" *ngIf="reactiveForm.controls.email.hasError('required')">email Không được để trống</p>
   <p style="color: red" *ngIf="reactiveForm.controls.email.hasError('pattern')">email phải đúng định dạng</p>
   <p>Password</p>
-  <label>
+  <label class="form-label">
     <input formControlName="password" name="password">
   </label>
   <p style="color: red" *ngIf="reactiveForm.controls.password.hasError('required')">Không được để trống</p>
   <p style="color: red" *ngIf="reactiveForm.controls.password.hasError('minLength')">ít nhất 6 kí tự</p>
   <p>ConfirmPass</p>
-  <input formControlName="confirmPassword" name="confirmPassword">
+  <input class="form-check-input" formControlName="confirmPassword" name="confirmPassword">
   <p style="color: red" *ngIf="reactiveForm.controls.confirmPassword.hasError('required')">Không được để trống</p>
   <p style="color: red" *ngIf="reactiveForm.controls.confirmPassword.hasError('minLength')">ít nhất 6 kí tự</p>
   <p>Country</p>
-  <input formControlName="country" name="country">
+  <input class="form-check-input" formControlName="country" name="country">
   <p style="color: red" *ngIf="reactiveForm.controls.country.hasError('required')">Không được để trống</p>
   <p>Age</p>
   <input formControlName="age" name="age">
   <p style="color: red" *ngIf="reactiveForm.controls.age.hasError('required')">nhỏ nhất 19t</p>
   <p>Gender</p>
-  <span><input type="radio" formControlName="gender" [value]="true">Nam</span>
+  <span><input class="form-check-input" type="radio" formControlName="gender" [value]="true">Nam</span>
   <span><input type="radio" formControlName="gender" [value]="false">Nữ</span>
   <p>Phone</p>
-  <input type="text>" formControlName="phoneNumber" name="phoneNumber"><br>
+  <input type="text>" class="form-check" formControlName="phoneNumber" name="phoneNumber"><br>
   <p style="color: red" *ngIf="reactiveForm.controls.email.hasError('pattern')">phoneNumber phải đúng định dạng</p>
   <input type="submit" value="đăng kí">
 </form>
