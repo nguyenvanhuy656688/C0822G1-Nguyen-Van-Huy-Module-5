@@ -1,0 +1,26 @@
+<p>Product-Create works!</p>
+<form [formGroup]="reactiveForm" (click)="create()" >
+  <input type="hidden" formControlName="id">
+  <label>Name</label>
+  <label>
+    <input placeholder="Ex: Kẹo" formControlName="name" name="name">
+  </label>
+  <br>
+  <label>Price</label>
+  <label>
+    <input type="number" formControlName="price" name="price">
+  </label>
+  <br>
+  <label>Description</label>
+  <label>
+    <input type="text" formControlName="description" name="description">
+  </label>
+  <br>
+  <label>
+    <select formControlName="category">
+      <option *ngFor="let category of category" [ngValue]="category">{{category.name}}</option>
+    </select>
+  </label>
+  <input type="submit" value="Thêm mới">
+
+</form>
