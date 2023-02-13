@@ -1,0 +1,72 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Bánh mè ",
+      "price": 9000,
+      "description": "Ngon",
+      "category:": {
+        "id:": 1,
+        "name:": "nếp"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Bánh Tét ",
+      "price": 5000,
+      "description": "Ngon",
+      "category:": {
+        "id:": 1,
+        "name:": "nếp"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Bánh Trưng ",
+      "price": 15000,
+      "description": "Ngon",
+      "category:": {
+        "id:": 1,
+        "name:": "nếp"
+      }
+    },
+    {
+      "id": 4,
+      "name": "",
+      "price": "",
+      "description": "",
+      "category": ""
+    },
+    {
+      "id": 5,
+      "name": "",
+      "price": "",
+      "description": "",
+      "category": ""
+    },
+    {
+      "id": 6,
+      "name": "",
+      "price": "",
+      "description": "",
+      "category": ""
+    },
+    {
+      "id": 7,
+      "name": "",
+      "price": "",
+      "description": "",
+      "category": ""
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "name": "nếp"
+    },
+    {
+      "id": 2,
+      "name": "đậu xanh"
+    }
+  ]
+}
