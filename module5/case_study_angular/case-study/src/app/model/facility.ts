@@ -1,11 +1,15 @@
+import {RenType} from './ren-type';
+import {FacilityType} from './facility-type';
+
 export interface Facility {
-  id?: string;
+  id?: number;
   name?: string;
-  area?: number;
-  cost?: number;
+  area?: string;
+  cost?: string;
   maxPeople?: number;
-  rentType?: string;
-  standardRoom?: string;
+  standardRoom?:number;
+  rentType?: RenType;
+  facilityType?: FacilityType;
   descriptionOfOtherConvenience?: string;
   poolArea?: number;
   numberOfFloors?: number;

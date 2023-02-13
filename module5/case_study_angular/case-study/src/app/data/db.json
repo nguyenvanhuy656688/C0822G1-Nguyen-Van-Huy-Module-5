@@ -1,0 +1,119 @@
+{
+  "customers": [
+    {
+      "id": 1,
+      "name": "Nguyễn Huy",
+      "dateOfBirth": "2020/11/11",
+      "gender": 0,
+      "idCard": "054632178911",
+      "phoneNumber": "123456654",
+      "email": "xpham123456@gmail.com",
+      "address": "Đà Nẵng",
+      "customerType": {
+        "id": 1,
+        "name": "Kim cương"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Nguyễn Lê Huy",
+      "dateOfBirth": "2020/11/11",
+      "gender": 0,
+      "idCard": "054632178911",
+      "phoneNumber": "123456654",
+      "email": "xpham123456@gmail.com",
+      "address": "Đà Nẵng",
+      "customerType": {
+        "id": 1,
+        "name": "Kim cương"
+      }
+    }
+  ],
+  "customerType": [
+    {
+      "id": 1,
+      "name": "Kim cương"
+    },
+    {
+      "id": 2,
+      "name": "Bạch Kim"
+    },
+    {
+      "id": 3,
+      "name": "Vàng"
+    }
+  ],
+  "rentType": [
+    {
+      "id": 1,
+      "name": "Year"
+    },
+    {
+      "id": 2,
+      "name": "Month"
+    },
+    {
+      "id": 3,
+      "name": "Day"
+    },
+    {
+      "id": 4,
+      "name": "Week"
+    }
+  ],
+  "facilityType": [
+    {
+      "id": 1,
+      "name": "Villa"
+    },
+    {
+      "id": 2,
+      "name": "House"
+    },
+    {
+      "id": 3,
+      "name": "Room"
+    }
+  ],
+  "facility": [
+    {
+      "id": 1,
+      "name": "Beach",
+      "area": "50000",
+      "cost": "100",
+      "maxPeople": "15",
+      "rentType": {
+        "id": 1,
+        "name": "Year"
+      },
+      "standardRoom": 1,
+      "facilityType": {
+        "id": 1,
+        "name": "Villa"
+      },
+      "descriptionOfOtherConvenience": "Nhà 5 lầu",
+      "poolArea": 500,
+      "numberOfFloors": 3,
+      "attachFacility": "5 nhà vệ sinh"
+    },{
+      "id": 2,
+      "name": "Beach",
+      "area": "50000",
+      "cost": "100",
+      "maxPeople": "15",
+      "rentType": {
+        "id": 1,
+        "name": "Year"
+      },
+      "standardRoom": 1,
+      "facilityType": {
+        "id": 1,
+        "name": "Villa"
+      },
+      "descriptionOfOtherConvenience": "Nhà 5 lầu",
+      "poolArea": 500,
+      "numberOfFloors": 3,
+      "attachFacility": "10 nhà vệ sinh"
+    }
+  ]
+}

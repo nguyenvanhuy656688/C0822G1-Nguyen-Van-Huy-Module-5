@@ -1,130 +1,87 @@
-<!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
-<head>
-  <meta charset="UTF-8">
-  <title>Title</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-  <!-- JavaScript Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-          integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-          crossorigin="anonymous"></script>
-</head>
-<body>
-<!--      header-->
-<div th:replace="~{/views/layout::header}"></div>
-
-<section class="navbar d-flex justify-content-center" id="navbar">
-  <div class="col-sm-12 col-md-11 ">
-    <h2 style="text-align: center">Quản lý Facility</h2>
-  </div>
-  <form th:action="@{/facility}" method="get">
-    <input type="hidden" name="action" value="list">
-    <button type="submit">Danh sách</button>
+<div style=" background-image: linear-gradient(to top,  #B5B5B5, #B5B5B5,#8273B0); overflow:hidden;
+  font-family: monospace;">
+  <button routerLink="/facility/create" type="button" class="btn btn-primary animationTop delay-01" value="Add New"
+          style="float: right; font-size: 16px; margin-top: 57px">Add New
+  </button>
+  <form class="d-flex animationTop delay-02" role="search"  style="float: left; font-size: 17px; margin-top: 57px">
+    <input class="form-control me-2" name="names" type="search" placeholder="Search Price" aria-label="Search" >
+    <select class="form-select animationTop delay-03" aria-label="Default select example" name="customer_type"
+            style="padding-right: 10px">
+      <option selected value="">Facility :</option>
+      <option value="Diamond">Villa</option>
+      <option value="Platinum">House</option>
+      <option value="Gold">Room</option>
+    </select>
+    <button style="margin-left: 10px" class="btn btn-primary animationTop delay-04" type="submit" >Search</button>
   </form>
+  <h1 class="delay-05" style="margin-left: 45%; margin-top: 60px">FACILITY</h1>
+  <table style="margin-left: 200px">
 
-  <div class="wrapper h-100 d-flex nav-item" style="margin-left: 95px">
-    <div>
-      <form th:action="@{/facility/create}" >
-        <input  type="hidden"  value="create" name="action">
-        <button class="btn btn-outline-primary" type="submit">Thêm Mới</button>
-      </form>
-    </div>
-    <div>
-      <form th:action="@{/facility/search}" method="post" style="display: flex;color: #0dcaf0">
-        <input class="form-control w-auto mx-2" type="text" placeholder="Search by  Id..." name="name">
-        <select class="form-control" name="facilityTypeName" >
-          <option value="">Chọn loại Facility</option>
-          <option th:each="facility: ${facilityTypeList}" th:value="${facility.name}" th:text="${facility.name}" th:selected="${facilityTypeName==facility.name}"></option>
-        </select>
-        <button class="btn btn-outline-success mx-2" type="submit"
-                style="margin-right: 0!important; color: black" >Search
-        </button>
-      </form>
-    </div>
-  </div>
-</section>
-<div>
-  <table id="tableCustomer" class="table table-bordered" style="text-align: center" border="2">
-    <thead style="background-color: yellow">
-    <tr>
-      <th>STT</th>
-      <th>Name</th>
-      <th>Area</th>
-      <th>Cost</th>
-      <th>Max People</th>
-      <th>Rent Type</th>
-      <th>FacilityType</th>
-      <th>Standard Room</th>
-      <th>Description </th>
-      <th>Poll Area</th>
-      <th>Number Of floor</th>
-      <th>Facility Free</th>
-      <th>Edit</th>
-      <th>Delete</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-      <td>@hihi</td>
-      <td>@hihi</td>
-      <td>@hihi</td>
-      <td>@hihi</td>
-      <td>@hihi</td>
-      <td>@hihi</td>
-      <td>@hihi</td>
-      <td>@hihi</td>
-      <td>@hihi</td>
-      <td>@hihi</td>
-      <td>@hihi</td>
-      <td>@hihi</td>
-
-      <td>
-        <a class="btn btn-success btn btn-sm"
-           th:href="@{/facility/{id}/edit(id=${facility.getId()})}">Edit</a>
-      </td>
-      <td>
-        <!-- Button trigger modal DELETE -->
-        <button type="button" class="btn btn-danger" data-bs-toggle="modal"
-                data-bs-target="#deleteModal">
-          Delete
-        </button>
-        <!-- Modal -->
-        <div class="modal fade " id="deleteModal" tabindex="-1"
-             aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog ">
-            <div class="modal-content bg-white">
-              <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Delete</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                        aria-label="Close"></button>
-              </div>
-              <div class="modal-body" style="color: #000 ; text-decoration-color: white ">
-                Bạn có muốn xóa <strong class="text-danger" th:text="${facility.getName()}"></strong>
-                không ?
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close
-                </button>
-                <a th:href="@{/facility/{id}/delete(id=${facility.getId()})}" class="btn btn-danger">Delete</a>
-              </div>
-            </div>
+    <div class="container">
+      <div class="list" style="margin-left: 90px">
+        <div class="item" *ngFor="let facility of facilityList">
+          <div class="img">
+            <img src="https://cdn.cet.edu.vn/wp-content/uploads/2019/02/villa-khong-gian-sang-trong.jpg">
+          </div>
+          <div class="content">
+            <a data-bs-toggle="modal" data-bs-target="#exampleModal1" style="cursor: pointer" (click)="temp = facility">
+              <div class="category">Facility</div>
+              <div class="title">Facility Name: {{facility.name}}</div>
+              <div class="title">Area: {{facility.area}}</div>
+              <div class="price">Price: {{facility.cost}}</div>
+            </a>
+            <button data-bs-toggle="modal" data-bs-target="#exampleModal" (click)="temp = facility" type="button" class="addCard">Delete</button>
+            <button type="button" routerLink="/edit:/id">Update</button>
           </div>
         </div>
-      </td>
+      </div>
+    </div>
 
-    </tbody>
+    <!--  Modal-delete-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content" style="background-image: linear-gradient(to top,  #B5B5B5, #B5B5B5,#8273B0); overflow:hidden;">
+          <div class="modal-header">
+            <h2 class="modal-title fs-5" id="exampleModalLabel">Xóa thông tin sản phẩm</h2>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <h5 style="color:red">Delete facility ?<br> {{temp.name}}</h5>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Hủy</button>
+            <button type="button" class="btn btn-primary" (click)="deleteFacility(temp.id)" data-bs-dismiss="modal">Xóa</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--  Modal-detail-->
+    <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content" style="background-image: linear-gradient(to top,  #B5B5B5, #B5B5B5,#8273B0); overflow:hidden;">
+          <div class="modal-header">
+            <h2 class="modal-title fs-5" id="exampleModalLabel1" style="color: white"> Facility Detail</h2>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <span>Name: {{temp.name}}</span><br>
+            <span>Area: {{temp.area}}</span><br>
+            <span>Cost: {{temp.cost}}</span><br>
+            <span>Facility free: {{temp.attachFacility}}</span><br>
+            <span>Max people: {{temp.maxPeople}}</span><br>
+            <span>Number floors: {{temp.numberOfFloors}}</span><br>
+            <span>Other convenience: {{temp.descriptionOfOtherConvenience}}</span><br>
+            <span *ngIf="temp.facilityType">Facility type: {{temp.facilityType.name}}</span><br>
+            <span *ngIf="temp.rentType">Rent type: {{temp.rentType.name}}</span><br>
+            <span *ngIf="temp.standardRoom==1">Standard Rom: Vip</span><br>
+            <span *ngIf="temp.standardRoom==0">Standard Rom: Normal</span><br>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" >Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </table>
 </div>
-
-<!--       phân trang-->
-<div style="text-align: right; align-content: center ; align-items: center">
-  <a th:href="@{/facility(page=${facilityList.number - 1})}" th:if="${facilityList.hasPrevious()}"><button class="btn btn-outline-danger">Trang trước</button></a>
-  <span class="btn" th:text="${facilityList.number + 1 + '/' + facilityList.totalPages}"></span>
-  <a th:href="@{/facility(page=${facilityList.number + 1})}" th:if="${facilityList.hasNext()}"><button class="btn btn-outline-danger">Trang tiếp theo</button>
-  </a>
-</div>
-<!--         Footer-->
-<div th:replace="~{/views/layout::footer}"></div>
-</body>
-</html>

@@ -13,6 +13,8 @@ import { CustomerListComponent } from './customer/customer-list/customer-list.co
 import { CustomerCreateComponent } from './customer/customer-create/customer-create.component';
 import { CustomerEditComponent } from './customer/customer-edit/customer-edit.component';
 import { ContractListComponent } from './contract/contract-list/contract-list.component';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -20,18 +22,21 @@ import { ContractListComponent } from './contract/contract-list/contract-list.co
     HomeComponent,
     HeaderComponent,
     FooterComponent,
-    // FacilityComponent,
     FacilityListComponent,
     FacilityCreateComponent,
     FacilityEditComponent,
     CustomerListComponent,
     CustomerCreateComponent,
     CustomerEditComponent,
-    ContractListComponent
+    ContractListComponent,
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule,
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
