@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./dictionary-mean.component.css']
 })
 export class DictionaryMeanComponent implements OnInit {
+  dictionary: any;
 
   constructor() { }
 

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a5b20097-3c71-45c0-8a27-2d2667ff3ca9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../../case_study/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../case_study/.idea/case_study.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../case_study/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../case_study/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../case_study/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../case_study/contract/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../case_study/customer/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../case_study/customer/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../case_study/customer/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../case_study/facility/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../case_study/facility/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../case_study/facility/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../case_study/home/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../case_study_angular/case-study/src/app/customer/customer-edit/customer-edit.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../case_study_angular/case-study/src/app/customer/customer-edit/customer-edit.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../case_study_angular/case-study/src/app/customer/customer-edit/customer-edit.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../case_study_angular/case-study/src/app/customer/customer-edit/customer-edit.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../case_study_angular/case-study/src/app/customer/customer-list/customer-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../case_study_angular/case-study/src/app/customer/customer-list/customer-list.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../case_study_angular/case-study/src/app/customer/customer-list/customer-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../case_study_angular/case-study/src/app/customer/customer-list/customer-list.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../case_study_angular/case-study/src/app/data/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../case_study_angular/case-study/src/app/data/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../case_study_angular/case-study/src/app/facility/facility-list/facility-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../case_study_angular/case-study/src/app/facility/facility-list/facility-list.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../case_study_angular/case-study/src/app/facility/facility-list/facility-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../case_study_angular/case-study/src/app/facility/facility-list/facility-list.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../case_study_angular/case-study/src/app/service/customer.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../case_study_angular/case-study/src/app/service/customer.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss3_angular_overview/practice/angular-change-font-size/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss3_angular_overview/practice/angular-change-font-size/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss3_angular_overview/practice/angular-change-font-size/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss3_angular_overview/practice/angular-change-font-size/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss3_angular_overview/practice/angular-change-font-size/browserslist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss3_angular_overview/practice/angular-change-font-size/e2e/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss3_angular_overview/practice/angular-change-font-size/e2e/src/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss3_angular_overview/practice/angular-change-font-size/e2e/src/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss3_angular_overview/practice/angular-change-font-size/e2e/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss3_angular_overview/practice/angular-change-font-size/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss3_angular_overview/practice/angular-change-font-size/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss3_angular_overview/practice/angular-change-font-size/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss3_angular_overview/practice/angular-change-font-size/src/app/app-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss3_angular_overview/practice/angular-change-font-size/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss3_angular_overview/practice/angular-change-font-size/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss3_angular_overview/practice/angular-change-font-size/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss3_angular_overview/practice/angular-change-font-size/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss3_angular_overview/practice/angular-change-font-size/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss3_angular_overview/practice/angular-change-font-size/src/app/font-size-editor/font-size-editor.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss3_angular_overview/practice/angular-change-font-size/src/app/font-size-editor/font-size-editor.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss3_angular_overview/practice/angular-change-font-size/src/app/font-size-editor/font-size-editor.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss3_angular_overview/practice/angular-change-font-size/src/app/font-size-editor/font-size-editor.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss3_angular_overview/practice/angular-change-font-size/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss3_angular_overview/practice/angular-change-font-size/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss3_angular_overview/practice/angular-change-font-size/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss3_angular_overview/practice/angular-change-font-size/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss3_angular_overview/practice/angular-change-font-size/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss3_angular_overview/practice/angular-change-font-size/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss3_angular_overview/practice/angular-change-font-size/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss3_angular_overview/practice/angular-change-font-size/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss3_angular_overview/practice/angular-change-font-size/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss3_angular_overview/practice/angular-change-font-size/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss3_angular_overview/practice/angular-change-font-size/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss3_angular_overview/practice/angular-change-font-size/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss3_angular_overview/practice/angular-change-font-size/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss9_connect_back_end/exercise/product-app/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss9_connect_back_end/exercise/product-app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss9_connect_back_end/exercise/product-app/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss9_connect_back_end/exercise/product-app/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss9_connect_back_end/exercise/product-app/browserslist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss9_connect_back_end/exercise/product-app/e2e/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss9_connect_back_end/exercise/product-app/e2e/src/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss9_connect_back_end/exercise/product-app/e2e/src/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss9_connect_back_end/exercise/product-app/e2e/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss9_connect_back_end/exercise/product-app/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss9_connect_back_end/exercise/product-app/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss9_connect_back_end/exercise/product-app/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss9_connect_back_end/exercise/product-app/src/app/app-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss9_connect_back_end/exercise/product-app/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss9_connect_back_end/exercise/product-app/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss9_connect_back_end/exercise/product-app/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss9_connect_back_end/exercise/product-app/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss9_connect_back_end/exercise/product-app/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss9_connect_back_end/exercise/product-app/src/app/component/product-create/product-create.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss9_connect_back_end/exercise/product-app/src/app/component/product-create/product-create.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss9_connect_back_end/exercise/product-app/src/app/component/product-create/product-create.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss9_connect_back_end/exercise/product-app/src/app/component/product-edit/product-edit.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss9_connect_back_end/exercise/product-app/src/app/component/product-edit/product-edit.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss9_connect_back_end/exercise/product-app/src/app/component/product-edit/product-edit.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss9_connect_back_end/exercise/product-app/src/app/component/product-list/product-list.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss9_connect_back_end/exercise/product-app/src/app/component/product-list/product-list.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss9_connect_back_end/exercise/product-app/src/app/component/product-list/product-list.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss9_connect_back_end/exercise/product-app/src/app/data/db.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss9_connect_back_end/exercise/product-app/src/app/model/category.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss9_connect_back_end/exercise/product-app/src/app/model/product.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss9_connect_back_end/exercise/product-app/src/app/service/category.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss9_connect_back_end/exercise/product-app/src/app/service/product.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss9_connect_back_end/exercise/product-app/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss9_connect_back_end/exercise/product-app/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss9_connect_back_end/exercise/product-app/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss9_connect_back_end/exercise/product-app/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss9_connect_back_end/exercise/product-app/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss9_connect_back_end/exercise/product-app/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss9_connect_back_end/exercise/product-app/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss9_connect_back_end/exercise/product-app/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss9_connect_back_end/exercise/product-app/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss9_connect_back_end/exercise/product-app/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss9_connect_back_end/exercise/product-app/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss9_connect_back_end/exercise/product-app/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss9_ss8_connect_back_end/exercise/product-app/src/app/service/category.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ss9_ss8_connect_back_end/exercise/product-app/src/app/service/category.service.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="ProjectId" id="2LibKbbZY0053sgP9fDBhaAUTxv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../angular-product-management" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm2020\WebStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a5b20097-3c71-45c0-8a27-2d2667ff3ca9" name="Default Changelist" comment="" />
+      <created>1676356787331</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676356787331</updated>
+      <workItem from="1676356788525" duration="52000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="496" y="104" key="FileChooserDialogImpl" timestamp="1676356839047">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="496" y="104" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1676356839047" />
+  </component>
+</project>
