@@ -15,12 +15,4 @@ export class CategoryService {
     return this.httpClient.get<Category[]>("http://localhost:3000/category");
   }
 
-  findById(id: number) {
-    return this.httpClient.get<Product>("http://localhost:3000/products/"+ id);
-  }
-
-  updateCategory(id: number, category: any) {
-    return this.httpClient.put<Category[]>("http://localhost:3000/category/${id}",category);
-
-  }
 }

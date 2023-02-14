@@ -31,32 +31,24 @@
       }
     },
     {
-      "id": 4,
-      "name": "",
-      "price": "",
-      "description": "",
-      "category": ""
+      "id": 8,
+      "name": "Nguyễn",
+      "price": 234,
+      "description": "Công123",
+      "category": {
+        "id": 1,
+        "name": "nếp"
+      }
     },
     {
-      "id": 5,
-      "name": "",
-      "price": "",
-      "description": "",
-      "category": ""
-    },
-    {
-      "id": 6,
-      "name": "",
-      "price": "",
-      "description": "",
-      "category": ""
-    },
-    {
-      "id": 7,
-      "name": "",
-      "price": "",
-      "description": "",
-      "category": ""
+      "id": 9,
+      "name": "Nguyễn",
+      "price": 5.5,
+      "description": "Công123",
+      "category": {
+        "id": 2,
+        "name": "đậu xanh"
+      }
     }
   ],
   "category": [

@@ -25,4 +25,13 @@ export class ProductService {
     return this.httpClient.delete("http://localhost:3000/products/" + id);
 
   }
+
+  update(id: number, category: any) {
+    return this.httpClient.patch<Product>('http://localhost:3000/customers/' + id, category);
+
+  }
+
+  findById(id: number):Observable<Product> {
+    return this.httpClient.get<Product>("http://localhost:3000/products/" + id);
+  }
 }

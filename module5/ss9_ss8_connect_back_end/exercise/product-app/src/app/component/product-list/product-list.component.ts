@@ -12,7 +12,7 @@ import {ProductService} from "../../service/product.service";
 export class ProductListComponent implements OnInit {
   productList: Product[] = [];
   id: number
-  name: String
+  name: string
 
   constructor(private productService: ProductService, private router: Router) {
     this.productService.getAllToServer().subscribe(data => {
@@ -23,13 +23,14 @@ export class ProductListComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  deleteModal(id: number, name: String) {
+  deleteModal(id: number, name: string) {
     this.name = name
     this.id = id
-
   }
 
   deleteById(id: number) {
-    this.productService.deleteById(id);
+    this.productService.deleteById(id).subscribe( data=> {
+      alert("đã xóa thành công")
+    });
   }
 }

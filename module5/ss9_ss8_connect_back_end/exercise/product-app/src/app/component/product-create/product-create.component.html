@@ -1,5 +1,5 @@
 <p>Product-Create works!</p>
-<form [formGroup]="reactiveForm" (click)="create()" >
+<form [formGroup]="reactiveForm" (submit)="create()" >
   <input type="hidden" formControlName="id">
   <label>Name</label>
   <label>
